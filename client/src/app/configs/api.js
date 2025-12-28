@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from "axios";
 
 const api = axios.create({
-    baseURL : "https://ai-resume-builder-backend-ux19.onrender.com" ;
-})
+  baseURL: "https://ai-resume-builder-backend-ux19.onrender.com"
+});
 
-export default api
+export default api;
